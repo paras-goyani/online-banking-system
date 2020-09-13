@@ -1,0 +1,143 @@
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media (min-width:768px) {
+  #wrapper {
+    padding-left: 250px;
+  }
+}
+
+@media (min-width:768px) {
+  #sidebar-wrapper {
+    width: 270px;
+  }
+}
+
+#back {
+  background-image: url(../../assets/img/logo.png) no-repest;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background-color: rgb(205,205,190);
+  background-size: cover;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#t {
+  background-color: rgb(243,243,236);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #logo {
+    max-height: 100px;
+    margin-right: 10px;
+    margin-top: -3px;
+    display: inline-block;
+  }
+}
+
+#brand {
+  margin-left: 0px;
+}
+
+#mynav {
+}
+
+#logo {
+}
+
+#sidebar-wrapper {
+}
+
+#sidebar-wrapper {
+}
+
+@media (min-width: 560px) {
+  #wrapper {
+    margin-top: 80px;
+  }
+}
+
